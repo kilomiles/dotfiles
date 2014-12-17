@@ -38,3 +38,5 @@ do
 done
 
 unset config_files
+
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"

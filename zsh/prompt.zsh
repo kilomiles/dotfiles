@@ -3,7 +3,7 @@ autoload colors && colors
 # http://github.com/ehrenmurdick/config/blob/master/zsh/prompt.zsh
 
 if [ -x /usr/local/bin/cowsay -a -x /usr/local/bin/fortune ]; then
-  fortune | cowsay -f $(ls /usr/local/share/cows/ | gshuf -n1) && echo -e "\n" && clear
+  fortune | cowsay -f $(ls /usr/local/share/cows/ | gshuf -n1) && echo " " && clear
 fi
 
 if (( $+commands[git] ))

@@ -13,5 +13,7 @@ alias ..="cd ../"
 alias ...="cd ../.."
 alias f="open -a Finder ./"
 
+alias specs='archey -c'
+
 alias py="python"
 alias cl="clear"
