@@ -13,6 +13,30 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark
+if test ! $(which grc)
+then
+  brew install grc
+  brew install coreutils
+fi
+
+if test ! $(which spark)
+  then
+  brew install spark
+fi
+
+if test ! $(which wget)
+  then
+  brew install wget
+fi
+
+if test ! $(which ack)
+  then
+  brew install ack
+fi
+
+if test ! $(which htop)
+  then
+  brew install htop
+fi
 
 exit 0
