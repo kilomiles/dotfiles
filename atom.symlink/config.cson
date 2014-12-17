@@ -1,8 +1,9 @@
 'global':
   'editor':
     'showIndentGuide': true
-    'fontFamily': 'Menlo'
-    'fontSize': 15
+    'fontSize': 12
+    'invisibles': {}
+    'fontFamily': 'DejaVu Sans Mono'
   'core':
     'ignoredNames': [
       '.bundle'
@@ -12,15 +13,15 @@
       'tmp'
       'vendor'
     ]
-    'themes': [
-      'unity-ui'
-      'glacier-syntax'
-    ]
     'hideGitIgnoredFiles': true
     'disabledPackages': [
       'background-tips'
       'exception-reporting'
       'metrics'
+    ]
+    'themes': [
+      'yosemite-unity-ui'
+      'base16-tomorrow-dark-theme'
     ]
   'spell-check':
     'grammars': [
@@ -32,4 +33,3 @@
     'showOnStartup': false
   'release-notes':
     'viewedVersion': '0.89.0'
-  'go-plus': {}
