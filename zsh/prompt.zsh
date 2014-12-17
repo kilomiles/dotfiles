@@ -2,6 +2,10 @@ autoload colors && colors
 # cheers, @ehrenmurdick
 # http://github.com/ehrenmurdick/config/blob/master/zsh/prompt.zsh
 
+if [ -x /usr/local/bin/cowsay -a -x /usr/local/bin/fortune ]; then
+  fortune | cowsay -f $(ls /usr/local/share/cows/ | gshuf -n1) && echo -e "\n" && clear
+fi
+
 if (( $+commands[git] ))
 then
   git="$commands[git]"

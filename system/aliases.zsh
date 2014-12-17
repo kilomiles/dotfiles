@@ -9,6 +9,9 @@ then
   alias la='gls -A --color'
 fi
 
+alias ..="cd ../"
+alias ...="cd ../.."
+alias f="open -a Finder ./"
+
 alias py="python"
-alias cls="clear"
-alias gedit="atom"
+alias cl="clear"
