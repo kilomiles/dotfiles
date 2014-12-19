@@ -17,3 +17,4 @@ alias specs='archey -c'
 
 alias py="python"
 alias cl="clear"
+alias cls="clear"
