@@ -18,3 +18,7 @@ alias specs='archey -c'
 alias py="python"
 alias cl="clear"
 alias cls="clear"
+  
+alias reload!='. ~/.zshrc'
+alias arp-scan='sudo arp-scan'
+

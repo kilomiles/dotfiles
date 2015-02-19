@@ -4,6 +4,13 @@ export ZSH=$HOME/.dotfiles
 # your project folder that we can `c [tab]` to
 export PROJECTS=$HOME/Documents/Code
 
+# add any python libraries to these lines
+export PATH=$PATH
+export PYTHONPATH=$PYTHONPATH
+
+export EDITOR=/Applications/Sublime\ Text.app
+
+
 # use .localrc for SUPER SECRET CRAP that you don't
 # want in your public, versioned repo.
 if [[ -a ~/.localrc ]]

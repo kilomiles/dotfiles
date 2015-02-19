@@ -75,7 +75,8 @@ directory_name() {
   echo "%{$fg_bold[black]%}%1/%\/%{$reset_color%}"
 }
 
-export PROMPT=$'$(rb_prompt)mg:$(directory_name)› '
+export PROMPT=$'$(rb_prompt)%m:$(directory_name)› '
+
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
