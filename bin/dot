@@ -11,7 +11,7 @@ $ZSH/osx/set-defaults.sh
 
 # Upgrade homebrew
 brew update && brew upgrade
-sudo gem update bropages
+echo "you may want to sudo gem update bropages"
 
 # Install homebrew packages
 $ZSH/homebrew/install.sh 2>&1

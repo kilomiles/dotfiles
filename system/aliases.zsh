@@ -11,7 +11,9 @@ fi
 
 alias ..="cd ../"
 alias ...="cd ../.."
+
 alias f="open -a Finder ./"
+alias xf="open -a XtraFinder"
 
 alias specs='archey -c'
 
