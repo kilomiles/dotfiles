@@ -12,13 +12,12 @@ fi
 alias ..="cd ../"
 alias ...="cd ../.."
 
-alias f="open -a Finder ./"
-alias xf="open -a XtraFinder"
-
+alias f="open -a Finder"
+alias p="open -a Preview"
 alias specs='archey -c'
 
 alias py="python"
-alias cl="clear"
+alias py3="python3"
 alias cls="clear"
 alias reload!='. ~/.zshrc'
 alias arp-scan='sudo arp-scan'

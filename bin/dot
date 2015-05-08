@@ -10,7 +10,7 @@ export ZSH=$HOME/.dotfiles
 $ZSH/osx/set-defaults.sh
 
 # Upgrade homebrew
-brew update && brew upgrade
+brew update && brew upgrade --all
 echo "you may want to sudo gem update bropages"
 
 # Install homebrew packages
